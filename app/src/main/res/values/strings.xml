@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InstaLikes</string>
+    <string name="auth_error">Неверный логин или пароль</string>
+    <string name="connection_error">Ошибка соединения</string>
+    <string name="enter_code">Введите код подтверждения</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="privacy_policy_label"><![CDATA[I agree to the <a href=\'http://instadivider.appsforall.su/pp.html\'>platform privacy policy</a>]]></string>
+    <string name="text_copied">Text copied</string>
+    <string name="open_insta">Open insta</string>
+</resources>
