@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         btnLogout.setOnClickListener { logout() }
 
-        checkAuth()
+
     }
 
     private fun logout() {

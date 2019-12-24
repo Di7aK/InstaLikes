@@ -18,6 +18,7 @@ class ConfirmCodeActivity : AppCompatActivity(), View.OnClickListener {
 
             progress.visibility = if(value) View.VISIBLE else View.GONE
             pinTitle.visibility = if(!value) View.VISIBLE else View.GONE
+            pinCode.visibility = if(!value) View.VISIBLE else View.GONE
             backspace.isEnabled = !value
             num0.isEnabled = !value
             num1.isEnabled = !value
