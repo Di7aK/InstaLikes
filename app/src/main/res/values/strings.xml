@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">InstaLikes</string>
-    <string name="auth_error">Неверный логин или пароль</string>
-    <string name="connection_error">Ошибка соединения</string>
-    <string name="enter_code">Введите код подтверждения</string>
+    <string name="app_name">Hashtags &amp; Likes for Instagram</string>
+    <string name="auth_error">Wrong login or password</string>
+    <string name="connection_error">Connection error</string>
+    <string name="enter_code">Enter security code</string>
     <string name="username">username</string>
     <string name="password">password</string>
     <string name="login">login</string>

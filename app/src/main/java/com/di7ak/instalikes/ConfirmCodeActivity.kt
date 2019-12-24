@@ -50,7 +50,7 @@ class ConfirmCodeActivity : AppCompatActivity(), View.OnClickListener {
             InstaApi.confirmCode(inputCode.toString()) { result, error ->
                 result?.let { resultNonNull ->
                     isProgress = false
-                    if (resultNonNull.authenticated) {
+                    if (resultNonNull.status == "ok") {
                         setResult(Activity.RESULT_OK)
                         finish()
                     } else {
@@ -72,7 +72,7 @@ class ConfirmCodeActivity : AppCompatActivity(), View.OnClickListener {
             InstaApi.checkPointConfirmCode(challengeUrl, inputCode.toString()) { result, error ->
                 if(result != null) {
                     isProgress = false
-                    if(result.authenticated) {
+                    if(result.status == "ok") {
                         setResult(Activity.RESULT_OK)
                         finish()
                     } else {
