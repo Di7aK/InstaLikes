@@ -11,6 +11,7 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
 import android.net.Uri
@@ -62,6 +63,7 @@ class SubcategoryActivity : AppCompatActivity(), SubcategoryAdapter.OnSubcategor
 
         Snackbar
             .make(root, getString(com.di7ak.instalikes.R.string.text_copied), Snackbar.LENGTH_LONG)
+            .setActionTextColor(Color.GREEN)
             .setAction(getString(com.di7ak.instalikes.R.string.open_insta)) {
                 val url = "https://www.instagram.com/${InstaApi.username}/"
                 val i = Intent(Intent.ACTION_VIEW)
