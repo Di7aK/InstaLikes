@@ -16,7 +16,7 @@ interface SyncApiService {
         @Query("isPrivate") isPrivate: Boolean,
         @Query("source") source: String,
         @Query("instaname") username: String,
-        @Query("v") version: Int = 27
+        @Query("version") version: Int = 27
     ) : Call<SyncModel>
 
     @GET("instausers/{userId}/get_jobs_likes")
